@@ -1,4 +1,4 @@
 MorePageSpace
 =============
 
-Chrome extension that adds space(s) at the end of current document.
+Chrome extension that adds space(s) at the end of current reddit.com.

@@ -1,16 +1,14 @@
 {
-  "name": "Scroll Beyond End",
-  "description": "Add space(s) at the end of current page",
+  "name": "Reddit Automatically Scroll Beyond End",
+  "description": "Automatically add space(s) at the end of reddit.com",
   "version": "2.0",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "*://*.reddit.com/*"
   ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
-  },
-  "browser_action": {
-    "default_title": "Add space(s) at the end of current page"
   },
   "manifest_version": 2
 }
